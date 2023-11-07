@@ -6,10 +6,11 @@ import { IonicModule } from '@ionic/angular';
 import { DashboardComponent } from './dashboard.component';
 import { FormsModule } from '@angular/forms';
 import { SelectCarComponent } from './select-car/select-car.component';
+import { CarInfoComponent } from './car-info/car-info.component';
 
 
 @NgModule({
-  declarations: [DashboardComponent,SelectCarComponent],
+  declarations: [DashboardComponent,SelectCarComponent,CarInfoComponent],
   imports: [
     CommonModule,
     DashboardRoutingModule,
